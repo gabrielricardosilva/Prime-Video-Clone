@@ -1,0 +1,267 @@
+<html>
+ <head>
+  <title>
+   Prime Video Clone
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #141414;
+            color: #ffffff;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #0f79af;
+        }
+        .navbar .logo {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .navbar .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar .nav-links a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .hero-section {
+            position: relative;
+            height: 60vh;
+            background: url('https://placehold.co/1920x1080') no-repeat center center/cover;
+        }
+        .hero-section .content {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+        }
+        .hero-section .content h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+        .hero-section .content p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .hero-section .content button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #0f79af;
+            border: none;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .section-title {
+            font-size: 24px;
+            margin: 20px 0;
+            padding: 0 20px;
+        }
+        .movie-slider {
+            display: flex;
+            overflow-x: auto;
+            padding: 0 20px;
+        }
+        .movie-slider::-webkit-scrollbar {
+            display: none;
+        }
+        .movie-item {
+            min-width: 200px;
+            margin-right: 20px;
+        }
+        .movie-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .movie-item p {
+            margin: 10px 0 0;
+            font-size: 16px;
+        }
+        .footer {
+            background-color: #0f79af;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="navbar">
+   <div class="logo">
+    Prime Video
+   </div>
+   <div class="nav-links">
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     TV Shows
+    </a>
+    <a href="#">
+     Movies
+    </a>
+    <a href="#">
+     Kids
+    </a>
+   </div>
+  </div>
+  <div class="hero-section">
+   <div class="content">
+    <h1>
+     Featured Movie
+    </h1>
+    <p>
+     Watch the latest blockbuster now
+    </p>
+    <button>
+     Watch Now
+    </button>
+   </div>
+  </div>
+  <div class="section-title">
+   Popular Movies
+  </div>
+  <div class="movie-slider">
+   <div class="movie-item">
+    <img alt="Movie poster with a dramatic scene of a hero standing against a sunset" height="300" src="https://storage.googleapis.com/a1aa/image/ScyhrBj6tp7eRi5ghqz37DXHfGU8UhohU939A31IysEP0DIUA.jpg" width="200"/>
+    <p>
+     Movie Title 1
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a thrilling car chase scene" height="300" src="https://storage.googleapis.com/a1aa/image/TrDVO8UsUdYYE5v5YYITLo6APpKXPEfvYi5yhOw8lQxJ6BEKA.jpg" width="200"/>
+    <p>
+     Movie Title 2
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a romantic couple under the rain" height="300" src="https://storage.googleapis.com/a1aa/image/nWFpVljt8ob5HFdezER51gB4AX4j94jGTYl7uBi1QBbK6BEKA.jpg" width="200"/>
+    <p>
+     Movie Title 3
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a sci-fi spaceship in space" height="300" src="https://storage.googleapis.com/a1aa/image/EnjMw2F765IJJRkFlcXkgucSZqNCNhQWWdXuGzmccGsF9ACF.jpg" width="200"/>
+    <p>
+     Movie Title 4
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a fantasy dragon flying over mountains" height="300" src="https://storage.googleapis.com/a1aa/image/Vem2gIlAjHVegUv0lcteDnA4oTcpLaA8MZwRwjPIuIHXoHQoA.jpg" width="200"/>
+    <p>
+     Movie Title 5
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a detective in a dark alley" height="300" src="https://storage.googleapis.com/a1aa/image/fsmvtOD5PyWeMUU8SpP7CuReLyt8Y4uGD4IezYVruHRyQPgQB.jpg" width="200"/>
+    <p>
+     Movie Title 6
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a superhero in action" height="300" src="https://storage.googleapis.com/a1aa/image/irT4pqfVRww8ECfqfl8a7W3wWCq0C3hUMA9lffZ75CjGheACF.jpg" width="200"/>
+    <p>
+     Movie Title 7
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a historical battle scene" height="300" src="https://storage.googleapis.com/a1aa/image/kqMCDsx7MmIkAhZlwZDestBP2JjIDIR0XfZqozKeIwAuoHQoA.jpg" width="200"/>
+    <p>
+     Movie Title 8
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a comedy group laughing together" height="300" src="https://storage.googleapis.com/a1aa/image/imZYjeHcQUVHdaRP69KEP7WRm8nTyww9mQsvSfx4ELjJ0DIUA.jpg" width="200"/>
+    <p>
+     Movie Title 9
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="Movie poster with a horror scene of a haunted house" height="300" src="https://storage.googleapis.com/a1aa/image/66xyEdOZhfUZN6EBed0snyNeLtcdVO0akfheZzRzILiIjeACF.jpg" width="200"/>
+    <p>
+     Movie Title 10
+    </p>
+   </div>
+  </div>
+  <div class="section-title">
+   Trending TV Shows
+  </div>
+  <div class="movie-slider">
+   <div class="movie-item">
+    <img alt="TV show poster with a group of friends in a coffee shop" height="300" src="https://storage.googleapis.com/a1aa/image/WSqufYXSXTVXXKekccUSCn37mN4R023ukOaMuOeqZZmioHQoA.jpg" width="200"/>
+    <p>
+     TV Show Title 1
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a detective solving a mystery" height="300" src="https://storage.googleapis.com/a1aa/image/fXmfEM2OpebrmJxNKlZD6mb89TMFmgZqhbf2iekVJQtFkeACF.jpg" width="200"/>
+    <p>
+     TV Show Title 2
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a fantasy world and magical creatures" height="300" src="https://storage.googleapis.com/a1aa/image/REQtonfQtBT3W6dpq9fEoxtAhWgR4CncqaUZAE3kRFad0DIUA.jpg" width="200"/>
+    <p>
+     TV Show Title 3
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a family having dinner" height="300" src="https://storage.googleapis.com/a1aa/image/9jbrPTXfJlQvOCjyiewsB51ZWYqV3SSwo3nIq9Szk9KK0DIUA.jpg" width="200"/>
+    <p>
+     TV Show Title 4
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a sci-fi adventure in space" height="300" src="https://storage.googleapis.com/a1aa/image/Vzt4BR1NcSrxF9NVSfkdtpkTxCCQNx6yLSu6qqNfckJfoHQoA.jpg" width="200"/>
+    <p>
+     TV Show Title 5
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a historical drama scene" height="300" src="https://storage.googleapis.com/a1aa/image/rAISDfO7ZDQgLCoRsSfJdtdGn2wVich1PKGDmAU7aZsb0DIUA.jpg" width="200"/>
+    <p>
+     TV Show Title 6
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a comedy group performing on stage" height="300" src="https://storage.googleapis.com/a1aa/image/WOxzEdyGc3IDAFYjBCcNUEwJmeI0btId8myIlNptmLGH6BEKA.jpg" width="200"/>
+    <p>
+     TV Show Title 7
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a horror scene in a dark forest" height="300" src="https://storage.googleapis.com/a1aa/image/ncfWzCgASCWlLCAu6khUSny73sd1j6kn8IrijuamkafQ0DIUA.jpg" width="200"/>
+    <p>
+     TV Show Title 8
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a superhero team in action" height="300" src="https://storage.googleapis.com/a1aa/image/22woQexw0CTwdqpxe3RUE46X3CbLZFTiTcfZtbm7A8r0oHQoA.jpg" width="200"/>
+    <p>
+     TV Show Title 9
+    </p>
+   </div>
+   <div class="movie-item">
+    <img alt="TV show poster with a romantic couple on a beach" height="300" src="https://storage.googleapis.com/a1aa/image/hb0Ll6e5iRTxHakshudc3SeYmahKvflY65gZIz4lcMg5oHQoA.jpg" width="200"/>
+    <p>
+     TV Show Title 10
+    </p>
+   </div>
+  </div>
+  <div class="footer">
+   <p>
+    © 2023 Prime Video Clone. All rights reserved.
+   </p>
+  </div>
+ </body>
+</html>
